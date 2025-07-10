@@ -1,0 +1,22 @@
+{
+  "name": "digitslab/gst-service",
+  "description": "Reusable GSTIN API Service for Laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Digitslab\\GstService\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Digitslab\\GstService\\GstServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "illuminate/support": "^8.0|^9.0|^10.0"
+  }
+}
