@@ -21,7 +21,7 @@ Add the repository to your `composer.json`:
 Then run:
 
 ```
-composer require digitslab/gst-service:^1.0
+composer require digitslab/gst-service:^1.2
 
 ```
 
